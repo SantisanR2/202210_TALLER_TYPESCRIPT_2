@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Taller 1</title>
+</head>
+<body>
+    <nav style="background-color: rgb(72, 179, 228);">
+      <img src="https://seeklogo.com/images/Y/youtube-tv-shows-logo-16EB8B9C93-seeklogo.com.png" alt="TV Series" style="height: 50px; margin-left: 15px;">
+      <span style="margin-left: 10px; font-weight: bolder ;">TV Series</span>
+    </nav>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-1"></div>
+
+        <div class="col-4" style="margin-top: 40px;">
+          <table class="table table-secondary table-hover">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Channel</th>
+                <th scope="col">Seasons</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" id="1-1"></th>
+                <td id="1-2" onclick="change(1)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="1-3"></td>
+                <td id="1-4"></td>
+              </tr>
+              <tr>
+                <th scope="row" id="2-1"></th>
+                <td id="2-2" onclick="change(2)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="2-3"></td>
+                <td id="2-4"></td>
+              </tr>
+              <tr>
+                <th scope="row" id="3-1"></th>
+                <td id="3-2" onclick="change(3)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="3-3"></td>
+                <td id="3-4"></td>
+              </tr>
+              <tr>
+                <th scope="row" id="4-1"></th>
+                <td id="4-2" onclick="change(4)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="4-3"></td>
+                <td id="4-4"></td>
+              </tr>
+              <tr>
+                <th scope="row" id="5-1"></th>
+                <td id="5-2" onclick="change(5)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="5-3"></td>
+                <td id="5-4"></td>
+              </tr>
+              <tr>
+                <th scope="row" id="6-1"></th>
+                <td id="6-2" onclick="change(6)" style="cursor: pointer; color: rgb(67, 126, 235);"></td>
+                <td id="6-3"></td>
+                <td id="6-4"></td>
+              </tr>
+            </tbody>
+          </table>
+          <span id="promedio"></span>
+        </div>
+
+        <div class="col-2"></div>
+  
+        <div class="col-4" style="margin-top: 40px;">
+          <div class="card"><img class="card-img-top w-100 d-block" id="imagen" src="https://i.imgur.com/GGje0vc.jpg">
+            <div class="card-body">
+                <h4 class="card-title" id="titulo">Breaking Bad</h4>
+                <p class="card-text" id="descripcion">Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer</p><a class="card-link" href="https://www.amc.com/shows/breaking-bad" id="link">https://www.amc.com/shows/breaking-bad</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2"></div>
+
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="serie.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
